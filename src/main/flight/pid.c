@@ -569,7 +569,6 @@ void pidSetController(int type)
     switch (type) {
         case 0:
         default:
-           //pid_controller = pidMultiWii;
             pid_controller = pidMultiWii23;
             break;
         case 1:
